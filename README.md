@@ -46,6 +46,4 @@ To keep local development frictionless, we also built an automated seeder that g
 
 ## 📦 Preview
 
-<video src="preview.mp4" controls="controls" width="100%">
-  Your browser does not support the video tag.
-</video>
+<img src="preview.gif" alt="Project Preview" width="100%">
