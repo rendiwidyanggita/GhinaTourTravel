@@ -35,14 +35,13 @@ To keep local development frictionless, we also built an automated seeder that g
 ## 🚦 Running the Project
 
 1. Clone the repository
-2. Install dependencies: `composer install` & `npm install`
+2. Install dependencies: `composer install` & `bun install`
 3. Setup environment: `cp .env.example .env` and configure your database credentials
 4. Generate app key: `php artisan key:generate`
 5. Link storage folder: `php artisan storage:link`
 6. Migrate and seed the database: `php artisan migrate:fresh --seed`
-7. Start the backend server: `php artisan serve`
-8. Start the frontend compiler: `npm run dev`
-9. Open `http://localhost:8000` in your browser
+7. Start backend & frontend together: `bun start` (or separately with `php artisan serve` & `bun run dev`)
+8. Open `http://localhost:8000` in your browser
 
 ## 📦 Preview
 
